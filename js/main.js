@@ -37,7 +37,7 @@ function initMap(parkingLots) {
 }
 $(document).ready(
   $.get(
-    "https://heterosis.github.io/parking-lot-off-street-in-taoyuan/js/parking-lots-off-street-info-of-taoyuan.json",
+    "json/off-street-parking-lots-in-taoyuan.json",
     function(data) {
       let parkingLots = data.parkingLots;
       initMap(parkingLots);
