@@ -1,0 +1,16 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#head-title {
+  text-align: center;
+  max-height: 10vh;
+}
+
+#map {
+  height: 90vh;
+  width: 100vw;
+}
